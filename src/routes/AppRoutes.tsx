@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "../pages/home.tsx"
-import Details from "../pages/details.tsx"
+import PokemonDetails from "../pages/Pokemondetails.tsx"
 import '../index.css'
 
 const AppRoutes = () => {
@@ -8,7 +8,7 @@ const AppRoutes = () => {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/pokemon/:name" element={<Details />} />
+        <Route path="/pokemon/:name" element={<PokemonDetails />} />
       </Routes>
     </BrowserRouter>
   );
