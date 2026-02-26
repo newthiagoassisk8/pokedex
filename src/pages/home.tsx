@@ -28,12 +28,12 @@ const [loading, setLoading] = useState(true);
 
   return <>
     <div className="p-6">
-        <h1 className="text-3x1 font-bold mb-6 text-center">
+        <h1 className="text-[40px] font-bold mb-6 text-center">
             Pokedéx
         </h1>
     </div>
 
-    <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-6">
+    <div className="grid grid-cols-2 px-20 md:grid-cols-4 lg:grid-cols-6 gap-6">
         {pokemons.map((pokemon) => (
             <PokemonCard key={pokemon.name} pokemon={pokemon} />
         ))}

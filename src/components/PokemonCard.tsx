@@ -18,9 +18,11 @@ const PokemonCard = ({ pokemon }: PokemonCardProps) => {
   return (
     <Link to={`/pokemon/${pokemon.name}`}>
         <div className="
+            min-w-[150px]
             bg-white
             shadow-md
             rounded-xl
+            m-1
             p-4
             text-center
             capitalize
