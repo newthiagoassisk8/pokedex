@@ -5,7 +5,7 @@ Então usar os comandos:
 
 Eu escolhi uma estrutura simples de pastas, porém eficaz para componentização. Funciona muito bem, principalmente em projetos pequenos e médios.
 
-meus maiores desafios foram com typescript, tive alguns erros de tipagem, mas consegui resoler rapidamento com ajuda do gpt e documentação.
+meus maiores desafios foram com typescript, tive alguns erros de tipagem, mas consegui resolver rapidamento com ajuda do gpt e documentação.
 
 Dentro do TimeBox eu gostaria de ter implementado um filtro pros pokemons e estilizado melhor as paginas(talvez uns 30 minutos a mais seriam suficientes).
 
